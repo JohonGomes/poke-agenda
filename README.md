@@ -13,5 +13,5 @@ Este projeto tem como objetivo criar uma Pokédex online completa e interativa, 
 * ** Digite o nome do Pokémon no campo de busca e click na pokebola para pesquisar!
 
 1. **Clone o repositório:**
-   ```bash
+   ```bash https://github.com/JohonGomes/poke-agenda/tree/main
   Acesse o Deploy >>> [https://poke-agenda.vercel.app/]
