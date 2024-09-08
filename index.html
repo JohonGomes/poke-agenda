@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poke-Agenda ~Região Kanto~</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <header>
+        <audio src="./musica/abertura_pokemon.mp3" control autoplay>Música</audio>
+
+        <div class="logo-pokemon">
+            <img src="./img/International_Pokémon_logo.svg.png" alt="Logo Pokémon" class="img-pokemon">
+        
+            <div>
+                <p>Pesquise, estude os <span style="font-weight: 500; color:brown">151 primeiros Pokémons</span> e se torne um Mestre!!!</p>
+            </div>
+        </div>
+        
+        
+        <main>
+            <section>
+            <input type="text" placeholder="Digite o nome dos Pokémons da Região Kanto" id="campo-pesquisa">
+            <img src="./img/pngegg.png" alt="" class="img-pokeball" onclick="pesquisar()">Pesquisar</img>
+            </section>
+
+            <section class="resultados-pesquisa"
+            id="resultados-pesquisa">
+            </section>
+        </main>
+    </header>
+
+    <footer>
+        <p>Capture todos eles !!!</p>
+        <p>2024 - Poké Agenda ~ Região Kanto ~</p>
+        <a href="https://github.com/JohonGomes">Git Hub - Johon </a>       
+    </footer>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
